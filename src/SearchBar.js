@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
+import { useEffect } from "react"
 
 const SearchBar = ({ posts, setSearchResults }) => {
     const handleSubmit = (e) => e.preventDefault()
@@ -22,7 +21,7 @@ const SearchBar = ({ posts, setSearchResults }) => {
                     onChange={handleSearchChange}
                 />
                 <button className="search__button">
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    XXX
                 </button>
             </form>
         </header>
